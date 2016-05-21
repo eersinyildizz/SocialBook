@@ -1,5 +1,5 @@
 <?php 
-	$pdo = new PDO("mysql:host=localhost;dbname=kaan;charset=utf8","root","");
+	$pdo = new PDO("mysql:host=br-cdbr-azure-south-b.cloudapp.net;dbname=socialbookk;charset=utf8","ba50e96d996747","1c5d404c");
 	if (isset($_POST["kayitOl"])) {
 		
 		$name = $_POST["name"];
@@ -38,7 +38,7 @@
  ?>
 <html>
 <head>
-  <title>Bootstrap Example</title>
+  <title>SocialBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
